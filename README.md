@@ -20,13 +20,13 @@ DataMesh solves common data management problems by providing a single, efficient
 ### Installation
 
 ```bash
-npm install datamesh
+npm install @mahendra705/datamesh
 ```
 
 ### Basic Usage
 
 ```javascript
-const DataMesh = require('datamesh');
+const DataMesh = require('@mahendra705/datamesh');
 
 // Create a DataMesh for users with indexes on 'name' and 'age'
 const users = new DataMesh('id', ['name', 'age']);
@@ -327,14 +327,14 @@ users.subscribe(event => {
 ### Node.js
 
 ```bash
-npm install datamesh
+npm install @mahendra705/datamesh
 ```
 
 ### Browser (ES6 Module)
 
 ```html
 <script type="module">
-  import DataMesh from 'https://unpkg.com/datamesh@latest/index.js';
+  import DataMesh from 'https://unpkg.com/@mahendra705/datamesh@latest/index.js';
   
   const users = new DataMesh('id', ['name']);
   // ... use DataMesh
@@ -344,7 +344,7 @@ npm install datamesh
 ### Browser (UMD)
 
 ```html
-<script src="https://unpkg.com/datamesh@latest/dist/datamesh.umd.js"></script>
+<script src="https://unpkg.com/@mahendra705/datamesh@latest/dist/datamesh.umd.js"></script>
 <script>
   const users = new DataMesh('id', ['name']);
   // ... use DataMesh

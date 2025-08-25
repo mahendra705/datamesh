@@ -1,5 +1,5 @@
 {
-  "name": "datamesh",
+  "name": "@mahendra705/datamesh",
   "version": "1.0.0",
   "description": "Advanced hybrid data structure for JavaScript with O(1) lookups, instant indexes, reactive updates, and native-like syntax.",
   "main": "index.js",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mahendra705/datamesh.git"
+    "url": "git+https://github.com/mahendra705/datamesh.git"
   },
   "bugs": {
     "url": "https://github.com/mahendra705/datamesh/issues"
@@ -49,4 +49,3 @@
     "prettier": "^2.8.0"
   }
 }
-  
